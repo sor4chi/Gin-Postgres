@@ -3,6 +3,6 @@ services:
     db:
         image: postgres:alpine
         env_file:
-            - postgres
+            - postgres.env
         ports:
             - 5432:5432
