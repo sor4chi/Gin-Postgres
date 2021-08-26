@@ -1,0 +1,8 @@
+version: "3.7"
+services:
+    db:
+        image: postgres:alpine
+        env_file:
+            - postgres
+        ports:
+            - 5432:5432
